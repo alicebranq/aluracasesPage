@@ -1,12 +1,12 @@
-import NextLink from "../src/components/Link"
+import Link from "../src/components/Link"
 
 export default function FAQ() {
 
     return (
         <div>
-            <NextLink href="/">
+            <Link href="/">
                 <a> Home </a>
-            </NextLink>
+            </Link>
         </div>
     )
 }
