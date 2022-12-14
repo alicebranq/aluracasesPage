@@ -1,7 +1,7 @@
 {
   "name": "aluracases-divulgacao",
-  "repository": {},
-  "author": "Alice branquinho <>",
+  "repository": "https://github.com/alicebranq/aluracasesPage",
+  "author": "Alice Branquinho <https://github.com/alicebranq>",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
