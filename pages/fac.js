@@ -1,4 +1,5 @@
 import Head from "next/head";
+import PageTitle from "../src/components/PageTitle/PageTitle";
 import { useEffect, useState } from "react";
 import { theme } from "../src/theme/theme";
 import Link from "../src/components/Link";
@@ -27,7 +28,9 @@ export default function FAQ(props) {
     return (    
         <div>
             <Head>
-                <title> FAQ - Alura Cases </title>
+                <PageTitle>
+                    FAQ - Alura Cases
+                </PageTitle>
             </Head>
             <Link href="/">
                 <a> Home </a>
