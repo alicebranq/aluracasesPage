@@ -1,6 +1,6 @@
 
 module.exports = {
-    tralingSlash: true,
+    trailingSlash: true,
     async redirects() {
         return [
             {
