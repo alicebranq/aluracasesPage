@@ -16,6 +16,7 @@ export async function getStaticProps() {
     
     return {
         props: {
+            qualquercoisa: 'que eu passar aqui',
             faq,
         }
     }
